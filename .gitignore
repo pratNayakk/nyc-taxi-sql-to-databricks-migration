@@ -1,0 +1,39 @@
+# Azure
+*.publishsettings
+
+# Secrets
+.env
+.env.*
+secrets/
+credentials/
+
+# Azure credentials
+*credentials*
+*secret*
+*password*
+*token*
+
+# Databricks
+.databricks/
+.databrickscfg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data
+*.parquet
+*.csv
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
